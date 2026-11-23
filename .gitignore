@@ -1,0 +1,31 @@
+# Certificates, private keys and credential material must never enter Git.
+*.key
+*.pem
+*.pfx
+*.p12
+*.crt
+*.cer
+*.cred
+.env
+.env.*
+local-secrets/
+
+# Runtime state and generated deployment material.
+logs/
+backups/
+backup*/
+incoming/
+state/
+simple-acme/
+temp/
+*.log
+*.log.*
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.xml
+
+# Operating-system/editor files.
+.DS_Store
+Thumbs.db
